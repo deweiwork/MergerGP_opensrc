@@ -1,4 +1,4 @@
-Fitter Status : Successful - Fri Apr 19 15:29:17 2019
+Fitter Status : Successful - Fri Apr 19 16:33:59 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : stx_4_1ch
 Top-level Entity Name : XCVR_TOP
@@ -8,8 +8,8 @@ Timing Models : Final
 Logic utilization : 13 %
     Combinational ALUTs : 3,333 / 74,940 ( 4 % )
     Memory ALUTs : 0 / 37,470 ( 0 % )
-    Dedicated logic registers : 9,429 / 74,940 ( 13 % )
-Total registers : 9429
+    Dedicated logic registers : 9,432 / 74,940 ( 13 % )
+Total registers : 9432
 Total pins : 234 / 432 ( 54 % )
 Total virtual pins : 0
 Total block memory bits : 446,464 / 5,640,192 ( 8 % )
