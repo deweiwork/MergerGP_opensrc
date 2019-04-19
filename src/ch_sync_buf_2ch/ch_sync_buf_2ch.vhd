@@ -105,7 +105,7 @@ begin
                         out_mux_sel_ch(i) <= cnt_ch(i) -1;
                     end loop;
                     ch_sync_buffer_sync_done_r <= '1';
-
+                    ch_sync_buffer_overflow_r  <= '0';
                 when others =>        
             
             end case;
