@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Fri Apr 19 18:47:29 2019
+Analysis & Synthesis Status : Successful - Sun Apr 21 20:04:48 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : stx_4_1ch
 Top-level Entity Name : XCVR_TOP
 Family : Arria II GX
 Logic utilization : N/A
-    Combinational ALUTs : 3,423
+    Combinational ALUTs : 3,437
     Memory ALUTs : 0
-    Dedicated logic registers : 10,910
-Total registers : 10910
+    Dedicated logic registers : 10,918
+Total registers : 10918
 Total pins : 224
 Total virtual pins : 0
 Total block memory bits : 572,416

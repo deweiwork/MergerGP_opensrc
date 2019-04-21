@@ -1,7 +1,7 @@
-<session jtag_chain="USB-BlasterII [2-3]" jtag_device="" sof_file="../../U2/output_files/stx_4_1ch.sof">
+<session jtag_chain="USB-BlasterII [2-3]" jtag_device="@2: EP2AGX95 (0x025130DD)" sof_file="../../U2/output_files/stx_4_1ch.sof">
   <display_tree gui_logging_enabled="0">
-    <display_branch instance="TX" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
-    <display_branch instance="RX" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+    <display_branch instance="TX" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+    <display_branch instance="RX" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
     <display_branch instance="init" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
     <display_branch instance="GP01" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
     <display_branch instance="GP23" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
@@ -444,7 +444,7 @@
             <node data_index="97" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_pattern_k1_wait_rx_obtain" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="97" tap_mode="classic" trigger_index="97" type="unknown"/>
             <node data_index="95" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_pattern_B_wait_rx_obtain" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="95" tap_mode="classic" trigger_index="95" type="unknown"/>
             <node data_index="98" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_sync_patterns" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="98" tap_mode="classic" trigger_index="98" type="unknown"/>
-            <node data_index="94" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_client_data" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="94" tap_mode="classic" trigger_index="94" type="unknown"/>
+            <node data_index="94" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_client_data" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="94" tap_mode="classic" trigger_index="94" type="unknown"/>
           </node>
           <node is_selected="false" level-0="alt_or" name="TX_Traffic_rdy" order="lsb_to_msb" state="expand" storage-0="alt_or" storage-1="alt_or" storage-2="alt_or" type="combinatorial">
             <node data_index="24" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:0:traffic|tx_traffic_ready" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="24" tap_mode="classic" trigger_index="24" type="unknown"/>
@@ -560,7 +560,7 @@
             <net data_index="97" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_pattern_k1_wait_rx_obtain" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="97" tap_mode="classic" trigger_index="97" type="unknown"/>
             <net data_index="95" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_pattern_B_wait_rx_obtain" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="95" tap_mode="classic" trigger_index="95" type="unknown"/>
             <net data_index="98" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_sync_patterns" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="98" tap_mode="classic" trigger_index="98" type="unknown"/>
-            <net data_index="94" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_client_data" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="94" tap_mode="classic" trigger_index="94" type="unknown"/>
+            <net data_index="94" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_client_data" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="94" tap_mode="classic" trigger_index="94" type="unknown"/>
           </bus>
           <bus is_selected="false" level-0="alt_or" name="TX_Traffic_rdy" order="lsb_to_msb" state="expand" storage-0="alt_or" storage-1="alt_or" storage-2="alt_or" type="combinatorial">
             <net data_index="24" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:0:traffic|tx_traffic_ready" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="24" tap_mode="classic" trigger_index="24" type="unknown"/>
@@ -676,7 +676,7 @@
             <net data_index="97" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_pattern_k1_wait_rx_obtain" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="97" tap_mode="classic" trigger_index="97" type="unknown"/>
             <net data_index="95" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_pattern_B_wait_rx_obtain" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="95" tap_mode="classic" trigger_index="95" type="unknown"/>
             <net data_index="98" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_sync_patterns" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="98" tap_mode="classic" trigger_index="98" type="unknown"/>
-            <net data_index="94" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="true" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_client_data" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="94" tap_mode="classic" trigger_index="94" type="unknown"/>
+            <net data_index="94" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status.sent_client_data" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="94" tap_mode="classic" trigger_index="94" type="unknown"/>
           </bus>
           <bus is_selected="false" level-0="alt_or" name="TX_Traffic_rdy" order="lsb_to_msb" state="expand" storage-0="alt_or" storage-1="alt_or" storage-2="alt_or" type="combinatorial">
             <net data_index="24" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:0:traffic|tx_traffic_ready" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="24" tap_mode="classic" trigger_index="24" type="unknown"/>
@@ -688,7 +688,7 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="9EB81B0B" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/17 21:52:18  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="256" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="9EB81B0B" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/17 21:52:18  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="256" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
@@ -719,11 +719,11 @@
       </trigger>
     </signal_set>
     <position_info>
-      <single attribute="active tab" value="1"/>
-      <single attribute="data horizontal scroll position" value="198"/>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="59"/>
       <single attribute="data vertical scroll position" value="0"/>
       <single attribute="setup horizontal scroll position" value="0"/>
-      <single attribute="setup vertical scroll position" value="19"/>
+      <single attribute="setup vertical scroll position" value="0"/>
       <single attribute="zoom level denominator" value="1"/>
       <single attribute="zoom level numerator" value="16"/>
       <single attribute="zoom offset denominator" value="1"/>
@@ -1812,7 +1812,7 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="E87950B3" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/17 23:02:55  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="E87950B3" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/17 23:02:55  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
@@ -1843,11 +1843,11 @@
       </trigger>
     </signal_set>
     <position_info>
-      <single attribute="active tab" value="1"/>
-      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="17"/>
       <single attribute="data vertical scroll position" value="0"/>
       <single attribute="setup horizontal scroll position" value="0"/>
-      <single attribute="setup vertical scroll position" value="28"/>
+      <single attribute="setup vertical scroll position" value="0"/>
       <single attribute="zoom level denominator" value="1"/>
       <single attribute="zoom level numerator" value="64"/>
       <single attribute="zoom offset denominator" value="1"/>
@@ -1920,7 +1920,7 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="E81AD772" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/10 19:41:31  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="E81AD772" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/10 19:41:31  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
@@ -2556,7 +2556,7 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="E6B87FD6" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/20 17:51:41  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="E6B87FD6" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/20 17:51:41  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
@@ -2845,7 +2845,7 @@
       </signal_vec>
       <presentation>
         <unified_setup_data_view>
-          <node data_index="86" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23|sync_status" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="86" tap_mode="classic" trigger_index="86" type="unknown"/>
+          <node data_index="78" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23|sync_status" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="78" tap_mode="classic" trigger_index="78" type="unknown"/>
           <node is_selected="false" level-0="alt_or" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer:ch_sync_buf_2ch_23|ch_sync_buffer_data_In_ch0[15..0]" order="msb_to_lsb" storage-0="alt_or" storage-1="alt_or" storage-2="alt_or" type="combinatorial">
             <node data_index="6" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer:ch_sync_buf_2ch_23|ch_sync_buffer_data_In_ch0[15]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="6" tap_mode="classic" trigger_index="6" type="unknown"/>
             <node data_index="5" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="dont_care" name="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer:ch_sync_buf_2ch_23|ch_sync_buffer_data_In_ch0[14]" pwr_level-0="dont_care" pwr_storage-0="dont_care" pwr_storage-1="dont_care" pwr_storage-2="dont_care" storage-0="dont_care" storage-1="dont_care" storage-2="dont_care" storage_index="5" tap_mode="classic" trigger_index="5" type="unknown"/>
@@ -3134,13 +3134,12 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="E846D6EF" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/20 18:34:19  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="E846D6EF" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/20 18:34:19  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
             <power_up enabled="yes">
-            </power_up>
-            <op_node/>
+            </power_up><op_node/>
           </level>
         </events>
         <storage_qualifier_events>
@@ -3172,7 +3171,7 @@
     </position_info>
   </instance>
   <global_info>
-    <single attribute="active instance" value="4"/>
+    <single attribute="active instance" value="0"/>
     <single attribute="config widget visible" value="1"/>
     <single attribute="data log widget visible" value="1"/>
     <single attribute="hierarchy widget height" value="159"/>
