@@ -60,7 +60,7 @@ begin
       code_err => code_err(1),
       disp_err => disp_err(1)
     );
-    process(CLK,RESET_N)
+  process(CLK,RESET_N)
     begin
       if (RESET_N = '0') then
         data_out <= (others => '0');
