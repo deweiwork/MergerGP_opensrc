@@ -1,5 +1,5 @@
 Analysis & Synthesis report for stx_4_1ch
-Mon Apr 22 14:59:11 2019
+Mon Apr 22 17:20:18 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -108,13 +108,13 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +-----------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status       ; Successful - Mon Apr 22 14:59:11 2019           ;
+; Analysis & Synthesis Status       ; Successful - Mon Apr 22 17:20:18 2019           ;
 ; Quartus Prime Version             ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                     ; stx_4_1ch                                       ;
 ; Top-level Entity Name             ; XCVR_TOP                                        ;
 ; Family                            ; Arria II GX                                     ;
 ; Logic utilization                 ; N/A                                             ;
-;     Combinational ALUTs           ; 3,277                                           ;
+;     Combinational ALUTs           ; 3,275                                           ;
 ;     Memory ALUTs                  ; 0                                               ;
 ;     Dedicated logic registers     ; 9,440                                           ;
 ; Total registers                   ; 9440                                            ;
@@ -345,8 +345,8 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------+--------------------------+
 ; Resource                                      ; Usage                    ;
 +-----------------------------------------------+--------------------------+
-; Estimated ALUTs Used                          ; 3277                     ;
-;     -- Combinational ALUTs                    ; 3277                     ;
+; Estimated ALUTs Used                          ; 3275                     ;
+;     -- Combinational ALUTs                    ; 3275                     ;
 ;     -- Memory ALUTs                           ; 0                        ;
 ;     -- LUT_REGs                               ; 0                        ;
 ; Dedicated logic registers                     ; 9440                     ;
@@ -355,21 +355,21 @@ refer to the applicable agreement for further details.
 ;     -- Due to unpartnered combinational logic ; 22                       ;
 ;     -- Due to Memory ALUTs                    ; 0                        ;
 ;                                               ;                          ;
-; Total combinational functions                 ; 3277                     ;
+; Total combinational functions                 ; 3275                     ;
 ; Combinational ALUT usage by number of inputs  ;                          ;
 ;     -- 7 input functions                      ; 22                       ;
 ;     -- 6 input functions                      ; 779                      ;
 ;     -- 5 input functions                      ; 903                      ;
 ;     -- 4 input functions                      ; 261                      ;
-;     -- <=3 input functions                    ; 1312                     ;
+;     -- <=3 input functions                    ; 1310                     ;
 ;                                               ;                          ;
 ; Combinational ALUTs by mode                   ;                          ;
-;     -- normal mode                            ; 2502                     ;
+;     -- normal mode                            ; 2500                     ;
 ;     -- extended LUT mode                      ; 22                       ;
 ;     -- arithmetic mode                        ; 753                      ;
 ;     -- shared arithmetic mode                 ; 0                        ;
 ;                                               ;                          ;
-; Estimated ALUT/register pairs used            ; 10295                    ;
+; Estimated ALUT/register pairs used            ; 10294                    ;
 ;                                               ;                          ;
 ; Total registers                               ; 9440                     ;
 ;     -- Dedicated logic registers              ; 9440                     ;
@@ -388,7 +388,7 @@ refer to the applicable agreement for further details.
 ;                                               ;                          ;
 ; Maximum fan-out node                          ; altera_internal_jtag~TDO ;
 ; Maximum fan-out                               ; 3420                     ;
-; Total fan-out                                 ; 53946                    ;
+; Total fan-out                                 ; 53940                    ;
 ; Average fan-out                               ; 3.95                     ;
 +-----------------------------------------------+--------------------------+
 
@@ -398,8 +398,8 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                  ; Entity Name                                 ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------+--------------+
-; |XCVR_TOP                                                                                                                               ; 3277 (2)            ; 9440 (0)                  ; 446464            ; 0            ; 0       ; 0         ; 0         ; 0         ; 224  ; 0            ; |XCVR_TOP                                                                                                                                                                                                                                                                                                                                            ; XCVR_TOP                                    ; work         ;
-;    |XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|                                                                ; 1442 (0)            ; 2361 (0)                  ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen                                                                                                                                                                                                                                                                        ; XCVR_8B10B_interconnect                     ; work         ;
+; |XCVR_TOP                                                                                                                               ; 3275 (2)            ; 9440 (0)                  ; 446464            ; 0            ; 0       ; 0         ; 0         ; 0         ; 224  ; 0            ; |XCVR_TOP                                                                                                                                                                                                                                                                                                                                            ; XCVR_TOP                                    ; work         ;
+;    |XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|                                                                ; 1440 (0)            ; 2361 (0)                  ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen                                                                                                                                                                                                                                                                        ; XCVR_8B10B_interconnect                     ; work         ;
 ;       |FRAME_CHECK:\Data_check_loop:0:judg_if_data_is_internal:Data_check|                                                              ; 17 (17)             ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|FRAME_CHECK:\Data_check_loop:0:judg_if_data_is_internal:Data_check                                                                                                                                                                                                     ; FRAME_CHECK                                 ; work         ;
 ;       |FRAME_CHECK:\Data_check_loop:1:judg_if_data_is_internal:Data_check|                                                              ; 17 (17)             ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|FRAME_CHECK:\Data_check_loop:1:judg_if_data_is_internal:Data_check                                                                                                                                                                                                     ; FRAME_CHECK                                 ; work         ;
 ;       |FRAME_CHECK:\Data_check_loop:2:judg_if_data_is_internal:Data_check|                                                              ; 17 (17)             ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|FRAME_CHECK:\Data_check_loop:2:judg_if_data_is_internal:Data_check                                                                                                                                                                                                     ; FRAME_CHECK                                 ; work         ;
@@ -424,7 +424,7 @@ refer to the applicable agreement for further details.
 ;                |alt_cal_edge_detect:pd90_det|                                                                                           ; 1 (1)               ; 3 (3)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration|alt_cal_edge_detect:pd90_det                                                                                ; alt_cal_edge_detect                         ; work         ;
 ;                |lpm_mux:alt_cal_mux_gen.testbus_mux|                                                                                    ; 12 (0)              ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration|lpm_mux:alt_cal_mux_gen.testbus_mux                                                                         ; lpm_mux                                     ; work         ;
 ;                   |mux_snc:auto_generated|                                                                                              ; 12 (12)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration|lpm_mux:alt_cal_mux_gen.testbus_mux|mux_snc:auto_generated                                                  ; mux_snc                                     ; work         ;
-;       |ch_sync_buffer_2ch:ch_sync_buf_2ch_01|                                                                                           ; 47 (15)             ; 489 (9)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01                                                                                                                                                                                                                                  ; ch_sync_buffer_2ch                          ; work         ;
+;       |ch_sync_buffer_2ch:ch_sync_buf_2ch_01|                                                                                           ; 46 (14)             ; 489 (9)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01                                                                                                                                                                                                                                  ; ch_sync_buffer_2ch                          ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:1:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:1:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:10:ch_loop:0:shift_reg|                                                                     ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:10:ch_loop:0:shift_reg                                                                                                                                                                         ; D_FF_sync_buf                               ; work         ;
@@ -457,7 +457,7 @@ refer to the applicable agreement for further details.
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:9:ch_loop:1:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:9:ch_loop:1:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:0:Out_Mux|                                                                           ; 16 (16)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:0:Out_Mux                                                                                                                                                                               ; ch_sync_buf_out_mux                         ; work         ;
 ;          |ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:1:Out_Mux|                                                                           ; 16 (16)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:1:Out_Mux                                                                                                                                                                               ; ch_sync_buf_out_mux                         ; work         ;
-;       |ch_sync_buffer_2ch:ch_sync_buf_2ch_23|                                                                                           ; 47 (15)             ; 489 (9)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23                                                                                                                                                                                                                                  ; ch_sync_buffer_2ch                          ; work         ;
+;       |ch_sync_buffer_2ch:ch_sync_buf_2ch_23|                                                                                           ; 46 (14)             ; 489 (9)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23                                                                                                                                                                                                                                  ; ch_sync_buffer_2ch                          ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:1:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:1:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:10:ch_loop:0:shift_reg|                                                                     ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23|D_FF_sync_buf:\shift_reg_gen_loop:10:ch_loop:0:shift_reg                                                                                                                                                                         ; D_FF_sync_buf                               ; work         ;
@@ -2820,7 +2820,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; stratixiv_hssi_rx_pma            ; 4                ;
 ; stratixiv_hssi_tx_pcs            ; 4                ;
 ; stratixiv_hssi_tx_pma            ; 4                ;
-; stratixiv_lcell_comb             ; 1444             ;
+; stratixiv_lcell_comb             ; 1442             ;
 ;     arith                        ; 311              ;
 ;         0 data inputs            ; 4                ;
 ;         1 data inputs            ; 274              ;
@@ -2828,11 +2828,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;         5 data inputs            ; 5                ;
 ;     extend                       ; 17               ;
 ;         7 data inputs            ; 17               ;
-;     normal                       ; 1116             ;
+;     normal                       ; 1114             ;
 ;         0 data inputs            ; 4                ;
 ;         1 data inputs            ; 22               ;
 ;         2 data inputs            ; 167              ;
-;         3 data inputs            ; 147              ;
+;         3 data inputs            ; 145              ;
 ;         4 data inputs            ; 128              ;
 ;         5 data inputs            ; 302              ;
 ;         6 data inputs            ; 346              ;
@@ -2847,7 +2847,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:22     ;
+; Top            ; 00:00:24     ;
 +----------------+--------------+
 
 
@@ -3934,23 +3934,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Mon Apr 22 14:57:59 2019
+    Info: Processing started: Mon Apr 22 17:18:59 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off arr_2_4ch_U1 -c stx_4_1ch
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12248): Elaborating Platform Designer system entity "clk_buffer.qsys"
-Info (12250): 2019.04.22.14:58:15 Progress: Loading clk_buffer/clk_buffer.qsys
-Info (12250): 2019.04.22.14:58:15 Progress: Reading input file
-Info (12250): 2019.04.22.14:58:16 Progress: Adding altclkctrl_0 [altclkctrl 18.0]
+Info (12250): 2019.04.22.17:19:16 Progress: Loading clk_buffer/clk_buffer.qsys
+Info (12250): 2019.04.22.17:19:16 Progress: Reading input file
+Info (12250): 2019.04.22.17:19:16 Progress: Adding altclkctrl_0 [altclkctrl 18.0]
 Warning (12251): Altclkctrl_0: Used altclkctrl 18.1 (instead of 18.0)
-Info (12250): 2019.04.22.14:58:16 Progress: Parameterizing module altclkctrl_0
-Info (12250): 2019.04.22.14:58:16 Progress: Building connections
-Info (12250): 2019.04.22.14:58:16 Progress: Parameterizing connections
-Info (12250): 2019.04.22.14:58:16 Progress: Validating
-Info (12250): 2019.04.22.14:58:17 Progress: Done reading input file
-Info (12250): 2019.04.22.14:58:17 : clk_buffer.altclkctrl_0: Targeting device family: Arria II GX.
-Info (12250): 2019.04.22.14:58:17 : clk_buffer.altclkctrl_0: Selecting AUTO allows the compiler to pick the best clock buffer to use, while other values restrict usage to only the given clock buffer.
-Info (12250): 2019.04.22.14:58:17 : clk_buffer.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
+Info (12250): 2019.04.22.17:19:17 Progress: Parameterizing module altclkctrl_0
+Info (12250): 2019.04.22.17:19:17 Progress: Building connections
+Info (12250): 2019.04.22.17:19:17 Progress: Parameterizing connections
+Info (12250): 2019.04.22.17:19:17 Progress: Validating
+Info (12250): 2019.04.22.17:19:18 Progress: Done reading input file
+Info (12250): 2019.04.22.17:19:18 : clk_buffer.altclkctrl_0: Targeting device family: Arria II GX.
+Info (12250): 2019.04.22.17:19:18 : clk_buffer.altclkctrl_0: Selecting AUTO allows the compiler to pick the best clock buffer to use, while other values restrict usage to only the given clock buffer.
+Info (12250): 2019.04.22.17:19:18 : clk_buffer.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
 Info (12250): Clk_buffer: Generating clk_buffer "clk_buffer" for QUARTUS_SYNTH
 Info (12250): Altclkctrl_0: Generating top-level entity clk_buffer_altclkctrl_0.
 Info (12250): Altclkctrl_0: "clk_buffer" instantiated altclkctrl "altclkctrl_0"
@@ -4193,7 +4193,7 @@ Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "TX"
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "init"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2019.04.22.14:58:33 Progress: Loading sldde52b15d/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2019.04.22.17:19:37 Progress: Loading sldde52b15d/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -4379,15 +4379,15 @@ Warning (21074): Design contains 66 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "tx_Para_data_bank[0][3][13]" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerGP_opensrc/src/XCVR_top.vhd Line: 20
     Warning (15610): No output dependent on input pin "tx_Para_data_bank[0][3][14]" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerGP_opensrc/src/XCVR_top.vhd Line: 20
     Warning (15610): No output dependent on input pin "tx_Para_data_bank[0][3][15]" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerGP_opensrc/src/XCVR_top.vhd Line: 20
-Info (21057): Implemented 11530 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 11528 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 75 input pins
     Info (21059): Implemented 153 output pins
-    Info (21061): Implemented 10833 logic cells
+    Info (21061): Implemented 10831 logic cells
     Info (21064): Implemented 436 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 183 warnings
-    Info: Peak virtual memory: 1251 megabytes
-    Info: Processing ended: Mon Apr 22 14:59:11 2019
-    Info: Elapsed time: 00:01:12
-    Info: Total CPU time (on all processors): 00:02:03
+    Info: Peak virtual memory: 1282 megabytes
+    Info: Processing ended: Mon Apr 22 17:20:18 2019
+    Info: Elapsed time: 00:01:19
+    Info: Total CPU time (on all processors): 00:02:16
 
 
